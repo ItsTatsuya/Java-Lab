@@ -69,7 +69,6 @@ class Employee {
         doj.year = sc.nextInt();
         System.out.print("Enter the salary: ");
         salary = sc.nextDouble();
-        sc.close();
     }
     public void printDetails(){
         System.out.println("Employee id: " + empId);
@@ -102,7 +101,7 @@ class EmployeeList{
     }
     public void printlist(){
         for(int i=0;i<n;i++){
-            System.out.println("Details of employee " + (i+1)+" :");
+            System.out.println("\nDetails of employee " + (i+1)+" :");
             emp[i].printDetails();
         }
     }
@@ -128,6 +127,7 @@ public class EmployeeMain {
         EmployeeList empList = new EmployeeList(n);
         empList.getlist();
         empList.sort();
+        System.out.println("\nThe details of the employees in descending order of salary: ");
         empList.printlist();
         sc.close();
     }
