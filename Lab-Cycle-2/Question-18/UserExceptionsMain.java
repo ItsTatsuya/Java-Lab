@@ -1,5 +1,3 @@
-/*Write a program to illustrate user-defined exceptions. */
-
 import java.util.Scanner;
 
 class InvalidAgeException extends Exception
