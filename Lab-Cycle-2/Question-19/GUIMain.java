@@ -1,4 +1,4 @@
-package com.mycompany.Question19;
+package Question19;
 
 public class GUIMain {
     public static void main(String[] args) {

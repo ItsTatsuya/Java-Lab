@@ -1,5 +1,4 @@
-
-package com.mycompany.Question19;
+package Question-19;
 
 import javax.swing.*;
 import java.awt.*;
