@@ -1,5 +1,3 @@
-/*Write a program to Pascal triangle with spaces */
-
 import java.util.Scanner;
 
 public class Pascaltriangle {

@@ -44,6 +44,7 @@ public class Student {
         s2.putdetails("Doe", 2, marks2);
         s2.printdetails();
 
+        System.out.println("\nStudent with highest total: ");
         if (s1.getTotal() > s2.getTotal()) {
             s1.printdetails();
         } else {

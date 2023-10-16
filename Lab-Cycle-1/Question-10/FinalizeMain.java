@@ -1,5 +1,3 @@
-/*Write a program to illustrate finalize() method. */
-
 class FinalizeMain
 {
     public static void main(String args[])
